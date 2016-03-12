@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/namack/emberjs_website_styles.git
+  revision: 39e3658b622ea73f41dfebc4ffe43f23d7ffc756
+  branch: master
+  specs:
+    emberjs_website_styles (0.1.0)
+      bourbon (>= 4.0)
+      neat (>= 1.7.2)
+      sass (~> 3.4)
+      thor (~> 0.19)
+
+GIT
   remote: https://github.com/LeonB/middleman-swiftype.git
   revision: 98a7fdb365cedcaa472caa4dd2132f79f0d7d15b
   specs:
@@ -222,6 +233,7 @@ DEPENDENCIES
   builder
   capybara
   coderay!
+  emberjs_website_styles!
   hashie
   highline
   html-proofer
@@ -246,4 +258,4 @@ DEPENDENCIES
   wdm (>= 0.1.0)
 
 BUNDLED WITH
-   1.10.5
+   1.10.6
