@@ -16,7 +16,7 @@ gem "middleman-swiftype", :git => "https://github.com/LeonB/middleman-swiftype.g
 gem "underscore-rails"
 gem "html-proofer"
 
-gem "emberjs_website_styles", github: "namack/emberjs_website_styles", branch: "master"
+gem "emberjs_website_styles"
 gem "normalize-scss"
 gem "bourbon"
 gem "neat"
